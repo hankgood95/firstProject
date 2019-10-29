@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow_background">
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/firstplace"
+        android:layout_margin="5dp"
+        android:id="@+id/googlemap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_alignParentBottom="true"
+        android:background="#90FFFFFF"
+        android:layout_margin="10dp"
+        android:id="@+id/firstplace">
+    </ListView>
+</RelativeLayout>

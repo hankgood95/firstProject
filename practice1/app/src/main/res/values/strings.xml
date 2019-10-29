@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">practice1</string>
+    <string name="countdown">다음 추첨까지</string>
+    <string name="countdown_left">남은시간</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="sell">
+        <item>복권나라</item>
+        <item>복권뱅크</item>
+        <item>황금복권</item>
+        <item>복권나라명륜점</item>
+        <item>복권세상도영점</item>
+        <item>드림로또</item>
+    </string-array>
+</resources>

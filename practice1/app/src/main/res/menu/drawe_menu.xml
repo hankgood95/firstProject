@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_numberlist"
+            android:icon="@drawable/ic_numberlist"
+            android:title="당첨확인" />
+        <item android:id="@+id/nav_store"
+            android:icon="@drawable/ic_store"
+            android:title="구매번호 저장 및 목록" />
+        <item android:id="@+id/nav_main"
+            android:icon="@drawable/ic_dday"
+            android:title="디데이" />
+        <item android:id="@+id/nav_luck"
+            android:icon="@drawable/ic_luck"
+            android:title="운세보기" />
+        <item android:id="@+id/nav_firstplace"
+            android:icon="@drawable/ic_firstplace"
+            android:title="당첨 판매점" />
+    </group>
+</menu>
